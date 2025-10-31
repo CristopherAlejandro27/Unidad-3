@@ -54,3 +54,12 @@ if __name__ == "__main__":
     ventana = App()
     ventana.show()
     sys.exit(app.exec())
+
+¿que propiedades de la programacion orientada a objetos identifica?
+Encapsulamiento:
+Los atributos titulo, autor, resultado y los métodos accion_agregar_libro y 
+accion_consultar_libros están dentro de la clase
+Abstracción:
+La interfaz de usuario (UI) está abstraída dentro de la clase App, lo que hace que oculte los detalles.
+Herencia:
+La clase App hereda de QWidget.
